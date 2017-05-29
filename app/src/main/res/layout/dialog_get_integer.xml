@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root_view"
+    android:layout_width="684px"
+    android:layout_height="620px"
+    android:background="@drawable/btn_round_blue_stroke"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/dialog_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50px"
+        android:gravity="center_horizontal"
+        android:text=""
+        android:textColor="#ffffff"
+        android:textSize="50px" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200px"
+        android:layout_marginTop="0px"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/minus_btn"
+            android:layout_width="150px"
+            android:layout_height="100px"
+            android:layout_marginLeft="50px"
+            android:background="@drawable/btn_round_gray_stroke"
+            android:text="-"
+            android:textSize="80px" />
+
+        <TextView
+            android:id="@+id/dialog_number"
+            android:layout_width="284px"
+            android:layout_height="100px"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="0px"
+            android:gravity="center"
+            android:tag="M"
+            android:text=""
+            android:textColor="#ffffff"
+            android:textSize="60px">
+
+        </TextView>
+
+        <Button
+            android:id="@+id/plus_btn"
+            android:layout_width="150px"
+            android:layout_height="100px"
+            android:layout_marginRight="50px"
+            android:background="@drawable/btn_round_gray_stroke"
+            android:text="+"
+            android:textSize="80px" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100px"
+        android:layout_marginLeft="50px"
+        android:layout_marginRight="50px"
+        android:gravity="center_vertical"
+        android:background="@drawable/btn_round_gray_stroke"
+        android:orientation="horizontal">
+
+        <SeekBar
+            android:id="@+id/seek_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="140px"
+        android:layout_marginTop="40px"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/dialog_ok"
+            android:layout_width="262px"
+            android:layout_height="100px"
+            android:layout_marginLeft="54px"
+            android:layout_marginRight="54px"
+            android:layout_marginTop="8px"
+            android:background="@drawable/btn_round_gray_stroke"
+            android:text="확인"
+            android:textColor="#0a0e24"
+            android:textSize="42px" />
+
+
+        <Button
+            android:id="@+id/dialog_cancel"
+            android:layout_width="262px"
+            android:layout_height="100px"
+            android:layout_marginTop="8px"
+            android:background="@drawable/btn_round_gray_stroke"
+            android:text="취소"
+            android:textColor="#0a0e24"
+            android:textSize="42px" />
+
+
+    </LinearLayout>
+
+</LinearLayout>

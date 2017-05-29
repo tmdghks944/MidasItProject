@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    >
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        app:layout_collapseMode="pin"
+        app:popupTheme="@style/AppTheme.NoActionBar.PopupOverlay" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none"
+        android:paddingRight="16dp"
+        android:paddingLeft="16dp">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="75dp">
+
+                <TextView
+                    android:text="사업이름"
+                    android:textSize="20dp"
+                    android:gravity="center"
+                    android:layout_weight="3"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent" />
+
+                <EditText
+                    android:id="@+id/admin_edit_titlename"
+                    android:hint="예) 희망의 무료급식"
+                    android:textSize="20dp"
+                    android:gravity="center"
+                    android:layout_weight="7"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="75dp">
+
+                <TextView
+                    android:text="목표금액"
+                    android:textSize="20dp"
+                    android:gravity="center"
+                    android:layout_weight="3"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent" />
+
+                <EditText
+                    android:id="@+id/admin_edit_price"
+                    android:hint="예) 1000000"
+                    android:textSize="20dp"
+                    android:inputType="numberDecimal"
+                    android:gravity="center"
+                    android:layout_weight="7"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="75dp">
+
+                <TextView
+                    android:text="이미지주소"
+                    android:textSize="20dp"
+                    android:gravity="center"
+                    android:layout_weight="3"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent" />
+
+                <EditText
+                    android:id="@+id/admin_edit_url"
+                    android:hint="http://midas.com"
+                    android:textSize="15dp"
+                    android:gravity="center"
+                    android:layout_weight="7"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:text="상세 내용"
+                    android:textSize="20dp"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="75dp" />
+
+                <EditText
+                    android:id="@+id/admin_edit_contents"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:gravity="center"
+                    android:background="@drawable/btn_round_gray_stroke"
+                    android:hint="자세한내용을적어주세요"
+                    android:textSize="15dp" />
+
+            </LinearLayout>
+            <Button
+                android:id="@+id/admin_btn"
+                android:layout_marginTop="20dp"
+                android:text="등 록"
+                android:textSize="30dp"
+                android:textColor="#ffffff"
+                android:background="@drawable/btn_round_blue_stroke"
+                android:layout_width="match_parent"
+                android:layout_height="70dp" />
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</LinearLayout>

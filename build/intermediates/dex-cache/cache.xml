@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\myRoom\AndroidStudioProjects\AndroidProject\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="caff8e51a24901cfc9cd7e1cf83d84f4cb0c103b">
+        <dex dex="C:\Users\myRoom\AndroidStudioProjects\AndroidProject\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_a5681ec0baf8afc0d6e4c5f21d8fb81cba724d91\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\myRoom\.android\build-cache\4840412803752f500b0651f045955eb25fc4ae0c\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d5d22a873f93271b4a339840ff29b3786258aac8">
+        <dex dex="C:\Users\myRoom\AndroidStudioProjects\AndroidProject\app\build\intermediates\pre-dexed\debug\classes_2e890abb57f4a7950616b82df75d3b05a6f52550.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\myRoom\.gradle\caches\modules-2\files-2.1\com.github.bumptech.glide\glide\3.7.0\9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4\glide-3.7.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4">
+        <dex dex="C:\Users\myRoom\AndroidStudioProjects\AndroidProject\app\build\intermediates\pre-dexed\debug\glide-3.7.0_2f28ec1ac0bd1e6d2cc9923b0d830350f62c8005.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\myRoom\.android\build-cache\487c2f0a2506addce3a036dc7782820a68a9d0c4\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d4cf6227dd6a2ceff0f7dcf0c324380b7abf2c28">
+        <dex dex="C:\Users\myRoom\AndroidStudioProjects\AndroidProject\app\build\intermediates\pre-dexed\debug\classes_79a51c71d352cd05f564832defd9d9257810d66d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\myRoom\.android\build-cache\413f5735bf220db180025788ca69b202f6685ec5\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="38789e20ace9ab7dbd00554bd2673ab424478d3b">
+        <dex dex="C:\Users\myRoom\AndroidStudioProjects\AndroidProject\app\build\intermediates\pre-dexed\debug\classes_7ffead93768531c9c957275b3c4550f186c16092.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\myRoom\AndroidStudioProjects\AndroidProject\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="5325b3138890df9348fbf35ae1db0fe2755bc093">
+        <dex dex="C:\Users\myRoom\AndroidStudioProjects\AndroidProject\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_f8d6af8018bef42e05779849b51c8d5bb5cff285\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\myRoom\.android\build-cache\727408188cc8deaf531c8a643fec243a463af3fb\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="914f5d3e3ace66080e59613708f06d129a222e25">
+        <dex dex="C:\Users\myRoom\AndroidStudioProjects\AndroidProject\app\build\intermediates\pre-dexed\debug\classes_d4132f8ce675e410b2978799dfb0953522c94ea5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\myRoom\.gradle\caches\modules-2\files-2.1\com.squareup.picasso\picasso\2.5.2\7446d06ec8d4f7ffcc53f1da37c95f200dcb9387\picasso-2.5.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="C:\Users\myRoom\AndroidStudioProjects\AndroidProject\app\build\intermediates\pre-dexed\debug\picasso-2.5.2_b4fe4cd0fe0cde736baba9b2d76656b9412fde6f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\myRoom\.android\build-cache\384055c40b9a99d9a8464ab46f182d18631602ba\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="95519720620b553f63afc789beba9ad582807f7c">
+        <dex dex="C:\Users\myRoom\AndroidStudioProjects\AndroidProject\app\build\intermediates\pre-dexed\debug\classes_fdaee8639fc36f400f15e64d2d74352f370989ee.jar" />
+    </item>
+
+</items>

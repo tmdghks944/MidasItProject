@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="120dp">
+
+    <TextView
+        android:id="@+id/admin_voluntary_txt_user_name"
+        android:text="홍길동"
+        android:layout_width="match_parent"
+        android:layout_height="40dp" />
+    <TextView
+        android:id="@+id/admin_voluntary_txt_voluntary_name"
+        android:text="다문화 가정 도와주기"
+        android:layout_width="match_parent"
+        android:layout_height="40dp" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="right">
+
+        <Button
+            android:id="@+id/admin_voluntary_btn_ok"
+            android:text="승인"
+            android:textColor="#ffffff"
+            android:layout_width="60dp"
+            android:layout_height="40dp"
+            android:background="#10096b"
+            android:layout_marginRight="10dp"/>
+
+        <Button
+            android:id="@+id/admin_voluntary_btn_fail"
+            android:text="거절"
+            android:textColor="#ffffff"
+            android:layout_width="60dp"
+            android:layout_height="40dp"
+            android:background="#e72f2f"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:background="@color/colorPrimaryDark"
+        android:layout_width="match_parent"
+        android:layout_height="3px" />
+
+</LinearLayout>
